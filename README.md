@@ -10,17 +10,17 @@ The dataset consists of over 50,000 labeled images across 48 plant disease categ
 
 # Technologies Used
 
-Python
+- Python
 
-PyTorch
+- PyTorch
 
-torchvision
+- torchvision
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-scikit-learn
+- scikit-learn
 
 # Model Implementation
 
@@ -28,29 +28,29 @@ Multiple CNN architectures were evaluated for performance, including Inception, 
 
 Key steps:
 
-    Data preprocessing and augmentation
+- Data preprocessing and augmentation
 
-    Transfer learning with pretrained ResNet
+- Transfer learning with pretrained ResNet
 
-    Cross-entropy loss and Adam optimizer
+- Cross-entropy loss and Adam optimizer
 
-    Training loop with early stopping
+- Training loop with early stopping
 
 # Installation
 
-git clone https://github.com/aakashjha123/plant-disease-classification.git
-cd plant-disease-classification
-pip install -r requirements.txt
-python train.py
+1. Clone the repository
 
+2. Open the notebook in Jupyter Notebook, JupyterLab or Google Colab
+
+3. Download the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) and place the extracted dataset in the appropriate directory as mentioned in the notebook.
 
 # Results and Insights
 
-Achieved 95% test accuracy across 48 plant disease classes
+- Achieved 95% test accuracy across 48 plant disease classes
 
-ResNet outperformed other tested architectures in both accuracy and training time
+- ResNet outperformed other tested architectures in both accuracy and training time
 
-Demonstrated strong generalization across unseen plant images, showing practical potential for real-world deployment
+- Demonstrated strong generalization across unseen plant images, showing practical potential for real-world deployment
 
 # Contributing
 
